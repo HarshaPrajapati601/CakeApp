@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-dream-app';
+  loadFeature : string ='home'
+  constructor(){
+
+  }
+  onNavigate(event){
+  this.loadFeature = event;
+  console.log("this",this.loadFeature)
+  }
 }
+

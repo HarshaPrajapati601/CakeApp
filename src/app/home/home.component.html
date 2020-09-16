@@ -1,0 +1,36 @@
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-caption d-none d-md-block">
+                <h3> Taste Of Home .....
+                    What we offer are fresh homemade cakes .</h3>
+                <p> 100% guaranteed pure veg ,baked with the best ingredients. The Ultimate Chocolate Cake from The Chocolate Room...</p>
+              </div>
+          <div class="carousel-item active">
+            <img src="../../assets/images/Cakes_main.jpg" class="imageMain">
+          </div>
+        
+        </div>
+      </div>
+      <br>
+      <h3>Cakes Varities</h3>
+      <div class="row col-12 cake-holder">
+          <div class="column" *ngFor="let card of cards">
+            <div class="card">
+            <img class="card-img-top" src="{{card.path}}" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">{{card.name}}</h4>
+              <p class="card-text">{{card.description}}</p>
+              <a href="#" class="btn btn-primary center">{{card.amount}}</a>
+            </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-12">
+        <button class="buttonload">
+          <i class="fa fa-circle-o-notch fa-spin"></i>Loading
+        </button>
+        <div class="btn btn-lg btn-success">
+          <a ></a>Load More..
+        </div>
+      </div>
