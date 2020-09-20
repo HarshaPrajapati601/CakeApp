@@ -19,8 +19,9 @@ export class CakeGalleryComponent implements OnInit {
     {name:'Mix',path:'../../assets/images/moms-cake/caked.jpg',amount:'Rs 300',description:'Marble cake ,Half kg' },
     {name:'Dryfruit Choclate',path:'../../assets/images/moms-cake/CakeImg-2.jpg',amount:'Rs 330',description:'choclate Dryfruit cake , Half kg' },
     {name:'Vanilla',path:'../../assets/images/moms-cake/cake-i.jpeg',amount:'Rs 280',description:'Vanilla cake with tutti fruity ,Half kg' },
-    {name:'Vanilla',path:'../../assets/images/moms-cake/cake-j.jpg',amount:'Rs 270',description:'Vanilla cake with tutti fruity ,Half kg' },
-    {name:'Dryfruit Choclate',path:'../../assets/images/moms-cake/CakeImg-3.jpg',amount:'Rs 330',description:'choclate Dryfruit cake , Half kg' }
+    {name:'Dryfruit Vanilla',path:'../../assets/images/moms-cake/cake-j.jpg',amount:'Rs 300',description:'Vanilla cake with tutti fruity , Dry fruits ,Half kg' },
+    {name:'Dryfruit Choclate',path:'../../assets/images/moms-cake/CakeImg-3.jpg',amount:'Rs 330',description:'choclate Dryfruit cake , Half kg' },
+    {name:'Choclate',path:'../../assets/images/moms-cake/cakea.jpg',amount:'Rs 270',description:'choclate plain cake , Half kg' },
   ]
   ChoclateType:any=[
     {name:'Choclate',path:'../../assets/images/moms-cake/CakeImg.jpg',amount:'Rs 280',description:'choclate decorated cake , Half kg' },
@@ -36,7 +37,7 @@ export class CakeGalleryComponent implements OnInit {
   ]
   VanillaType:any=[
     {name:'Vanilla',path:'../../assets/images/moms-cake/cake-i.jpeg',amount:'Rs 280',description:'Vanilla cake with tutti fruity ,Half kg' },
-    {name:'Vanilla',path:'../../assets/images/moms-cake/cake-j.jpg',amount:'Rs 280',description:'Vanilla cake with tutti fruity ,Half kg' }
+    {name:'Dryfruit Vanilla',path:'../../assets/images/moms-cake/cake-j.jpg',amount:'Rs 300',description:'Vanilla cake with tutti fruity ,Half kg' }
 
   ]
   cakeEmitter(cakeType){
