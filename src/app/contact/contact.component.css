@@ -1,0 +1,42 @@
+.contact-section{
+    margin-top:118px;
+    background:#FADFE7;
+    padding:40px 0;
+}
+
+.contact-section h1{
+    text-align: center;
+    color : #f195b2;
+}
+.box{
+    /* padding:10px;
+    col */
+}
+.border{
+    height: 10px;
+    width: 100px;
+    color: #34495e;
+    margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding:0 10px;
+    overflow: hidden;
+}
+.contact-form input{
+    width: 100%;
+    margin:16px 0;
+    display: block;
+    box-sizing: border-box;
+    border: 0;
+    padding:20px 40px;
+    background:#f195b2;
+    color:#111;
+    transition:0.5s;
+
+}
+.contact-form input:hover{
+    box-shadow: 0 0 10px 4px #90596a;
+  
+}

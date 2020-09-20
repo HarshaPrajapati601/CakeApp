@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   cards:any=[
-    {name:'Choclate Cake',path:'../../assets/images/moms-cake/CakeImg.jpg',amount:'Rs 100',description:'choclate cake' },
-    {name:'Choclate Cake',path:'../../assets/images/moms-cake/CakeImg-1.jpg',amount:'Rs 100',description:'choclate cake' },
-    {name:'Choclate Cake',path:'../../assets/images/moms-cake/CakeImg-2.jpg',amount:'Rs 100',description:'choclate cake' },
-    {name:'Choclate Cake',path:'../../assets/images/moms-cake/CakeImg-3.jpg',amount:'Rs 100',description:'choclate cake' }
+    {name:'Choclate Cake',path:'../../assets/images/moms-cake/CakeImg.jpg' },
+    {name:'Choclate Cake',path:'../../assets/images/moms-cake/CakeImg-1.jpg'},
+  
   ]
   constructor() { }
 
   ngOnInit(): void {
   }
+
 
 }
