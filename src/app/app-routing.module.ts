@@ -7,7 +7,9 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
 
-   {path:'cake',component:CakeGalleryComponent}
+   {path:'cake',component:CakeGalleryComponent},
+   {path:'home',component : HomeComponent}
+   
 ];
 
 @NgModule({

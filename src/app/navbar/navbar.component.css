@@ -1,7 +1,7 @@
 .navbar.navbar-expand-lg .navbar-nav li:hover a,
 .navbar.navbar-expand-lg .navbar-nav li.active a,
 .navbar.navbar-expand-lg .navbar-text:hover a {
-    color: #f195b2;
+    color:#DE7533;
 }
 
 .cake-name {
@@ -11,7 +11,7 @@
     height: 100px;;
 }
 .nav-item .active{
-    color: #f195b2;
+    color: #DE7533;
 }
 
 @media(min-width:992px){
