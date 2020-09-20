@@ -1,12 +1,12 @@
 .contact-section{
     margin-top:118px;
-    background:#FADFE7;
+    background:#FADFE7 !important;
     padding:40px 0;
 }
 
 .contact-section h1{
     text-align: center;
-    color : #f195b2;
+    color : #f195b2 !important;
 }
 .box{
     /* padding:10px;
@@ -24,15 +24,16 @@
     padding:0 10px;
     overflow: hidden;
 }
-.contact-form input{
+.contact-form input ,.contact-form a{
     width: 100%;
     margin:16px 0;
     display: block;
     box-sizing: border-box;
     border: 0;
     padding:20px 40px;
-    background:#f195b2;
-    color:#111;
+    background:#f195b2 !important;
+    -webkit-text-fill-color: rgba(0, 0, 0, 1); 
+    color:#111 !important;
     transition:0.5s;
 
 }

@@ -1,12 +1,11 @@
 <div class="container">
-    <div class="col-12 row cake-gallery">
+    <div class="row cake-gallery">
           <button type="button" (click)="cakeEmitter('all')" class="btn btn-primary">Show All</button>
           <button type="button" (click)="cakeEmitter('choclate')" class="btn btn-success">Choclate Cakes</button>
           <button type="button" (click)="cakeEmitter('vanilla')" class="btn btn-info">Vanilla Cake</button>
           <button type="button" (click)="cakeEmitter('marbel')" class="btn btn-warning">Marble Cake</button>     
     </div> 
-    <div class="col-12">
-        <div class="row col-12 cake-holder">
+        <div class="row cake-holder">
             <ng-container *ngIf="typeOfCake == 'all' ? true : false">
                 <div class="col-md-5 col-sm-6 col-lg-4  mainColumn ng-star-inserted mainColumn" *ngFor="let card of cakesDetails">
                     <div class="card">
@@ -55,7 +54,6 @@
                 </div>
                 </div>
           </ng-container>
-        </div>
-    </div>    
+        </div>   
 </div>
 
