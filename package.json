@@ -4,7 +4,6 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build",
-    "postinstall": "ng build --aot -prod",
     "test": "ng test",
     "start": "node server.js",
     "lint": "ng lint",
