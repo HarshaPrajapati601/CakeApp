@@ -1,0 +1,13 @@
+
+<div class="container-fluid">
+   <header>
+      <app-navbar (headerName)="onNavigate($event)"></app-navbar>
+   </header>
+   <section>
+      <app-home *ngIf="loadFeature =='home'"></app-home>
+      <app-cake-gallery *ngIf="loadFeature =='cake'" ></app-cake-gallery>
+      <app-contact *ngIf="loadFeature =='contact'" ></app-contact>
+   </section>
+</div>
+
+<router-outlet></router-outlet>

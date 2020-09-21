@@ -1,0 +1,39 @@
+
+.cake-gallery{
+    margin-top: 173px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+.mainColumn{
+  margin-bottom: 32px;
+}
+button{
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.cake-holder{
+    margin: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+@media (max-width:768){
+  .card-image-top{
+    width: 287px;
+  }
+  .mainColumn{
+      width: 30%;
+  }
+}
+@media (min-width:769)and (max-width:1920){
+    .card-image-top{
+      width: 287px;
+    }
+    .mainColumn{
+        width: 40%;
+    }
+  }

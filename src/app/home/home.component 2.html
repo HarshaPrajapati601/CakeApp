@@ -1,0 +1,24 @@
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-caption">
+                <h2 class="d-none d-sm-block"> Taste Of Home .....
+                    What we offer are fresh homemade cakes .</h2>
+                <p class="childgroup"> 100% guaranteed pure veg ,baked with the best ingredients. The Ultimate Chocolate Cake from The Chocolate Room...</p>
+              </div>
+          <div class="carousel-item active">
+            <img src="../../assets/images/moms-cake/cupcake.jpg" class="imageMain">
+          </div>
+        
+        </div>
+      </div>
+      <br>
+
+      <div class="row  cake-holder">
+          <div class="cardscake" *ngFor="let card of cards">
+            <div class="card">
+            <img class="card-img-top" src="{{card.path}}" alt="Card image">
+          </div>
+          </div>
+      </div>
+      <router-outlet></router-outlet>
